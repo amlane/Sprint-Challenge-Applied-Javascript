@@ -31,14 +31,21 @@ Demonstrate your understanding of this week's concepts by answering the followin
 Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager
 
 1. What is the DOM?
+The DOM is the document object model. It is an API, taking all of our code and displaying it in the browser starting with the HTML first usually. 
 
 2. What is an event?
+An event is an action that will cause a javascript code to excecute. 
 
 3. What is an event listener?
+An event listener is a line of code that tells your selected element(s) what to do when the "event" it's listening for occurs.
 
 4. Why would we convert a NodeList into an Array?
+JavaScript ES6 brought a handful of helpful methods for working with arrays: Array.forEach(), Array.every(), Array.some(), Array.filter(), and more.
+
+Unfortunately, you can’t use any of these with the elements you get back when using querySelectorAll(), because it returns a NodeList, not an array. This is why it's helpful to be able to use Array.from(). 
 
 5. What is a component?
+A compenent is reusable code that has the ability to grow and shrink easily based on what content needs to be put in. 
 
 ### Git Set up
 
